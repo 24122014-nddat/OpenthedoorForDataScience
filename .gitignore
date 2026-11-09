@@ -1,0 +1,79 @@
+# ==============================================================================
+# CSC17104 - LẬP TRÌNH CHO KHOA HỌC DỮ LIỆU - FINAL PROJECT
+# Git Ignore Configuration
+# ==============================================================================
+
+# --- Data Directories (DO NOT COMMIT LARGE DATASETS) ---
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Large dataset formats
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.jsonl
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# --- Python Environment & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter Notebook Checkpoints & Cache ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.pytest_cache/
+
+# --- IDE & Editor Artifacts ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# --- Intermediate & Temporary Files ---
+tmp/
+temp/
+scratch/
+
